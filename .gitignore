@@ -1,0 +1,16 @@
+# 10-K PDFs downloaded from the Netflix and Disney investor sites by src/build_data.py (the extracted
+# tables in data/raw/*.csv are committed instead)
+data/raw/filings/
+
+# Secrets
+*.key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
